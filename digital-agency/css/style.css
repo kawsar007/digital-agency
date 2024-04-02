@@ -78,7 +78,7 @@ h6 {
   line-height: 1.2;
   font-weight: 400;
   font-family: "Oswald", sans-serif;
-  text-transform: uppercase !important;
+  /* text-transform: uppercase !important; */
 }
 .h1,
 h1 {

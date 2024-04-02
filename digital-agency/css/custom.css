@@ -16,8 +16,86 @@
 
 .ai_sub_title {
   margin-top: 10rem;
-  color: #fff;
+  /* color: #fff; */
   text-align: center;
+
+  background-image: linear-gradient(60deg, #50a3df, #16d8c1, #fbec87);
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 2rem;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.service-details .ai_gradient {
+  background-image: linear-gradient(60deg, #0b92f5, #19cae7);
+  background-clip: text;
+  color: transparent;
+}
+
+.service-details h1 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 58px;
+}
+
+.team-details h1 {
+  font-family: Archivo;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  color: #40454b;
+}
+
+.team-details h6 {
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  background-image: linear-gradient(60deg, #549ddf, #3ad6e4, #f8de37);
+  background-clip: text;
+  color: transparent;
+}
+
+.company-portfolio-section {
+  /* background-color: #111; */
+}
+
+.development h6 {
+  font-size: 24px;
+  text-align: end;
+  margin-top: 2rem;
+  background-image: linear-gradient(60deg, #50a3df, #16d8c1, #fbec87);
+  background-clip: text;
+  color: transparent;
+}
+
+/* IMAGE GALLARY SECTION */
+.image-gallary-title h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.image-gallary-title h6 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 64px;
+  background-image: linear-gradient(60deg, #16d8c1, #f8de37);
+  background-clip: text;
+  color: transparent;
+}
+
+.testimonial-title h1 {
+  font-size: 64px;
+  background-image: linear-gradient(60deg, #fff626, #32eded);
+  background-clip: text;
+  color: transparent;
+}
+
+.our_partners {
+  background: linear-gradient(to bottom, #59527f, #49619f, #1cb7c9);
 }
 
 .video-container {
