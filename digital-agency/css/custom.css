@@ -14,6 +14,8 @@
   background-color: #3d78ab;
 }
 
+/* Gradient */
+
 .ai_sub_title {
   margin-top: 10rem;
   /* color: #fff; */
@@ -36,7 +38,7 @@
 .service-details h1 {
   font-family: Inter;
   font-weight: 700;
-  font-size: 58px;
+  font-size: 4rem;
 }
 
 .team-details h1 {
@@ -68,9 +70,9 @@
 
 /* IMAGE GALLARY SECTION */
 .image-gallary-title h1 {
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 64px;
   color: #ffffff;
 }
 
@@ -115,7 +117,8 @@
   z-index: 997;
   padding: 15px 0;
 
-  background: rgba(40, 58, 90, 0.9);
+  /* background: rgba(40, 58, 90, 0.9); */
+  background-color: #201e2b !important;
 }
 
 #header .logo {
@@ -375,6 +378,20 @@
   visibility: visible !important;
 }
 
+.code_free h1 {
+  font-size: 4rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: initial !important;
+}
+
+.code_free .brilliance {
+  background-image: linear-gradient(60deg, #539ddf, #40c7e3, #d2dd59);
+  background-clip: text;
+  color: transparent;
+}
+
 /* @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -398,5 +415,21 @@
 @media (min-width: 1400px) {
   .container {
     max-width: 1320px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .service-details h1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .image-gallary-title h1 {
+    font-size: 2rem;
+  }
+
+  .image-gallary-title h6 {
+    font-size: 1.25rem;
   }
 }
