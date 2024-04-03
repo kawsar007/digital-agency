@@ -183,10 +183,10 @@
 .navbar .getstarted:focus {
   padding: 8px 20px;
   margin-left: 30px;
-  border-radius: 50px;
+  border-radius: 10px;
   color: #fff;
   font-size: 14px;
-  border: 2px solid #47b2e4;
+  border: 1px solid #47b2e4;
   font-weight: 600;
 }
 
@@ -373,4 +373,30 @@
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
   visibility: visible !important;
+}
+
+/* @media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+} */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
 }
