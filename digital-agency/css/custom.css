@@ -430,6 +430,12 @@
   }
 }
 
+.megamenu {
+  /* display: block; */
+  /* width: 100%; */
+  width: auto;
+}
+
 /* ---==========COMMON BUTTON==========--- */
 
 .button {
