@@ -436,6 +436,31 @@
   width: auto;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.dropdown-menu.show {
+  -webkit-animation: fadeIn 0.3s alternate;
+  /* Safari 4.0 - 8.0 */
+  animation: fadeIn 0.3s alternate;
+}
+
+.nav-item.dropdown.dropdown-mega {
+  position: static;
+}
+.nav-item.dropdown.dropdown-mega .dropdown-menu {
+  width: 100%;
+  top: auto;
+  /* left: 5%; */
+
+  background: linear-gradient(to right, #28253f, #26617d, #15879f);
+}
+
 /* ---==========COMMON BUTTON==========--- */
 
 .button {
