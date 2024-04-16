@@ -1525,8 +1525,8 @@ section {
    Team SECTION
 ====================================== */
 .team-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 170px;
+  padding-bottom: 220px;
   background-color: #202020;
 }
 
@@ -1658,6 +1658,8 @@ section {
 }
 .portfolio-sec .container {
   max-width: 1140px;
+  margin-top: 3.25rem;
+  margin-bottom: 7.5rem !important;
 }
 .portfolio-sec .heading {
   color: #202020;
@@ -1818,6 +1820,11 @@ section {
   padding-top: 150px;
   padding-bottom: 180px;
   background-color: #e8d716;
+  /* margin-bottom: 5rem; */
+}
+
+.testimonial-carousel {
+  margin-bottom: 5rem;
 }
 
 #testimonial-header-svg {
@@ -2705,6 +2712,23 @@ section {
 
   .testimonial-post .post {
     display: inline-block;
+  }
+
+  .testimonial-sec {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-color: #e8d716;
+    /* margin-bottom: 5rem; */
+  }
+
+  .testimonial-carousel {
+    margin-bottom: 1rem;
+  }
+
+  .team-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #202020;
   }
 
   #blog .col-lg-4:not(:nth-last-child(1)) .news-item {

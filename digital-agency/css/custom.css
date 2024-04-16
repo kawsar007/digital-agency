@@ -402,7 +402,7 @@
 
 /* =============== About Section Start ============== */
 .about-us-sec {
-  padding-top: 300px;
+  padding-top: 170px;
   padding-bottom: 360px;
   background-color: #e8d716;
 }
@@ -468,6 +468,12 @@
   /* left: 5%; */
 
   background: linear-gradient(to right, #28253f, #26617d, #15879f);
+}
+
+/* ----------============ Gallary Section ============----------- */
+.image-gallary-area {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
 }
 
 /* ---==========COMMON BUTTON==========--- */
@@ -650,6 +656,11 @@ section.pricing {
     line-height: 32px;
   }
 
+  /* .section-heading {
+    margin-top: 280px;
+    margin-bottom: 200px;
+  } */
+
   .section-heading h1 {
     font-size: 2rem;
     line-height: 22px;
@@ -667,5 +678,10 @@ section.pricing {
 
   .image-gallary-title h6 {
     font-size: 1.25rem;
+  }
+
+  .image-gallary-area {
+    margin-top: -6rem;
+    margin-bottom: 0.25rem;
   }
 }
