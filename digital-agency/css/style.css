@@ -1272,9 +1272,9 @@ section {
   z-index: 11;
   color: #ffffff;
 }
-.banner-right-area-content h2 {
+.banner-right-area-content h1 {
   font-size: 4rem;
-  font-family: "Oswald", sans-serif;
+  font-family: "Inter";
   font-weight: 200;
   margin-bottom: 20px;
   text-transform: initial !important;
@@ -1298,11 +1298,11 @@ section {
   }
 } */
 
-.banner-right-area-content h2 .main-bold-text {
+.banner-right-area-content h1 .main-bold-text {
   display: block;
-  font-family: "Oswald", sans-serif;
+  font-family: "Inter";
   font-weight: 700;
-  letter-spacing: 1.6px;
+  letter-spacing: 1px;
 
   background-image: linear-gradient(60deg, #6a70fe, #6c7af8, #5464f8, #2cd4f9);
   background-clip: text;
@@ -1364,8 +1364,8 @@ section {
 }
 
 .service-details h1 {
-  font-family: "Oswald", sans-serif;
-  font-weight: 600;
+  font-family: "Inter";
+  font-weight: 700;
   color: #ffffff;
 }
 .service-details h1 span {
@@ -1377,6 +1377,7 @@ section {
   color: #ffffff;
   margin-top: 50px;
   margin-bottom: 0;
+  font-size: 18px;
 }
 .service-details a {
   margin-top: 60px !important;
@@ -1514,6 +1515,10 @@ section {
   width: 50%;
   display: inline-block;
   float: left;
+}
+
+.owl-nav {
+  display: none;
 }
 
 /* ===================================
@@ -2760,7 +2765,7 @@ section {
 }
 
 @media screen and (max-width: 991px) {
-  .banner-right-area-content h2 {
+  .banner-right-area-content h1 {
     font-size: 2rem;
   }
 
@@ -3295,7 +3300,7 @@ section {
     font-size: 50px;
   }
 
-  .banner-right-area-content h2 {
+  .banner-right-area-content h1 {
     font-size: 50px;
     margin-bottom: 10px;
   }
