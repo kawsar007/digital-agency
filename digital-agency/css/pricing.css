@@ -1,0 +1,149 @@
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #1a202c;
+  text-align: left;
+  background-color: #e2e8f0;
+}
+
+.pricing-container {
+  max-width: 1320px;
+}
+
+.card-header h4 {
+  color: #51617c;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.card-header h6 {
+  color: #51617c;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.card-header .span {
+  color: #156cfe;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.card-header p {
+  color: #51617c;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15.6px;
+}
+
+.card-header a {
+  text-decoration: none;
+  color: #1dc8e9;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.card-header:first-child {
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.card-body ul li {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 1rem !important;
+}
+.align-items-start {
+  align-items: flex-start !important;
+}
+.flex-column {
+  flex-direction: column !important;
+}
+.border-bottom {
+  border-bottom: 1px solid #cbd5e0 !important;
+}
+.card-footer,
+.card-header {
+  display: flex;
+  align-items: center;
+}
+.card-header {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+  background-color: #fff;
+  border-bottom: 0 solid rgba(0, 0, 0, 0.125);
+}
+.card-footer:last-child {
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+.h3,
+h3 {
+  font-size: 1.75rem;
+}
+.p-3 {
+  padding: 1rem !important;
+}
+.justify-content-center {
+  justify-content: center !important;
+}
+.card-footer,
+.card-header {
+  display: flex;
+  align-items: center;
+}
+.card-footer {
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  border-top: 0 solid rgba(0, 0, 0, 0.125);
+}
+.card {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+/* Upgrade Button */
+
+.upgrade-butoon {
+  cursor: pointer;
+  outline: 0;
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.upgrade-butoon:hover {
+  color: #fff;
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}

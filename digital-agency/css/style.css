@@ -2815,6 +2815,11 @@ section {
   .side-nav .navbar-nav {
     margin-bottom: 50px;
   }
+
+  .dropdown-menu .mega-content a {
+    color: #fff;
+  }
+
   /*toggle btn*/
   .sidemenu_btn {
     position: absolute;
