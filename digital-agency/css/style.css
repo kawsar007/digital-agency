@@ -1280,24 +1280,6 @@ section {
   text-transform: initial !important;
 }
 
-/* @media screen and (max-width: 720px) {
-  .banner-right-area-content h2 {
-    font-size: 2rem;
-  }
-
-  .banner-right-area-content .hero-p {
-    font-size: 1rem;
-  }
-
-  .banner-right-area-content .hero-sub-title {
-    margin-bottom: 0.5rem;
-  }
-
-  .hero-img {
-    margin-top: 0px;
-  }
-} */
-
 .banner-right-area-content h1 .main-bold-text {
   display: block;
   font-family: "Inter";
@@ -1312,10 +1294,17 @@ section {
 
 .banner-right-area-content .hero-p {
   color: #71d7f7;
-  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: "Roboto";
 }
 
 .banner-right-area-content .hero-sub-title {
+  font-size: 2.5rem;
+  line-height: 40px;
+  font-family: "Roboto";
+  font-weight: 700;
   background-image: linear-gradient(to left, #12f7d6, #6496ef, #8122f9);
   background-clip: text;
   color: transparent;

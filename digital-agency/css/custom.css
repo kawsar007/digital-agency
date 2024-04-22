@@ -837,12 +837,15 @@ section.pricing {
 /* Controls */
 .kb-control-prev,
 .kb-control-next {
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
   margin: auto 0;
   opacity: 0;
   color: #fff;
   background: rgba(0 0 0 / 0.7);
+
+  border: 2px solid #111;
 }
 
 .kb-carousel:hover .kb-control-prev,
@@ -867,7 +870,7 @@ section.pricing {
 }
 
 /* Support for dark mode */
-[data-bs-theme="dark"] .carousel .carousel-control-next-icon,
+/* [data-bs-theme="dark"] .carousel .carousel-control-next-icon,
 [data-bs-theme="dark"] .carousel .carousel-control-prev-icon {
   filter: none;
-}
+} */
