@@ -1307,6 +1307,7 @@ section {
   background-image: linear-gradient(60deg, #6a70fe, #6c7af8, #5464f8, #2cd4f9);
   background-clip: text;
   color: transparent;
+  text-align: left;
 }
 
 .banner-right-area-content .hero-p {
@@ -1319,11 +1320,13 @@ section {
   background-clip: text;
   color: transparent;
   margin-bottom: 1rem;
+  text-align: left;
 }
 
 .banner-right-area-content p {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
+  text-align: left;
 }
 
 #banner_svg {
