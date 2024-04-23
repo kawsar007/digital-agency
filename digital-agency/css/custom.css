@@ -29,7 +29,7 @@
   background-clip: text;
   color: transparent;
   margin-bottom: 2rem;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
 }
 
@@ -56,8 +56,8 @@
 .team-details h6 {
   font-family: "Roboto";
   font-weight: bold;
-  font-size: 32px;
-  line-height: 32px;
+  font-size: 28px;
+  line-height: 28px;
   background-image: linear-gradient(60deg, #549ddf, #3ad6e4, #f8de37);
   background-clip: text;
   color: transparent;
@@ -75,6 +75,7 @@
 
 /* IMAGE GALLARY SECTION */
 .image-gallary-title h1 {
+  font-family: "Inter";
   font-size: 4rem;
   font-weight: 700;
   line-height: 64px;
@@ -83,7 +84,7 @@
 
 .image-gallary-title h6 {
   font-family: "Roboto";
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
   line-height: 64px;
   background-image: linear-gradient(60deg, #16d8c1, #f8de37);
@@ -549,6 +550,11 @@ section.pricing {
   background: linear-gradient(to right, #0062e6, #33aeff); */
 }
 
+.pricing .price-plan-container {
+  padding-top: 55px;
+  padding-bottom: 80px;
+}
+
 .pricing .card {
   border: none;
   border-radius: 1rem;
@@ -745,7 +751,7 @@ section.pricing {
 .kb-caption {
   right: 7%;
   left: 7%;
-  bottom: 35%;
+  bottom: 25%;
   padding: 0;
   width: 70%;
   margin: 0 auto;
@@ -801,10 +807,14 @@ section.pricing {
 
   .banner-right-area-content {
     order: 2;
+
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
   }
 
   .carousel-image {
     /* display: none; */
+    margin-top: -4rem;
     width: 100%;
     order: 1;
   }
@@ -814,7 +824,7 @@ section.pricing {
   .kb-caption {
     right: 7%;
     left: 7%;
-    bottom: 20%;
+    bottom: 10%;
     padding: 0;
     width: 85%;
     margin: 0 auto;
@@ -874,3 +884,26 @@ section.pricing {
 [data-bs-theme="dark"] .carousel .carousel-control-prev-icon {
   filter: none;
 } */
+
+/* FOOTER CSS */
+.widget .widget-title {
+  font-size: 1.25rem;
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.widget ul li a {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.copyright ul li a {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #666872;
+}

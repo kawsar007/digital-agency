@@ -34,6 +34,8 @@
     <!-- <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"> -->
     <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="90">
@@ -151,19 +153,19 @@
                             <div class="carousel slide kb-carousel carousel-fade" id="carouselKenBurns"
                                 data-bs-ride="carousel">
                                 <!-- Carousel Items -->
-                                <div class="carousel-inner carousel_content">
+                                <div class="carousel-inner carousel_content" data-aos="fade-up">
                                     <div class="carousel-item carousel-item active">
                                         <img src="/digital-agency/img/Rectangle 1.png" class="d-block w-100"
                                             alt="Slide 3">
                                         <div
                                             class="carousel-caption kb-caption kb-caption-center d-flex justify-content-between">
                                             <div class="banner-right-area-content">
-                                                <h1 data-aos="fade-right" data-animation="animated"> <span
-                                                        class="main-bold-text">CREATE YOUR
+                                                <h1 class="">
+                                                    <span class="main-bold-text">CREATE YOUR
                                                         WEB <br /> WITH AI 1</span>
                                                 </h1>
-                                                <p data-animation="animated" class="hero-p">From Idea to Website</p>
-                                                <h4 data-animation="animated" class="hero-sub-title">Within a Blink!
+                                                <p class="hero-p">From Idea to Website</p>
+                                                <h4 class="hero-sub-title">Within a Blink!
                                                 </h4>
 
                                                 <a href="javascript:void(0);"
@@ -171,8 +173,11 @@
                                                     Your Website</a>
                                             </div>
                                             <div class="carousel-image">
-                                                <img src="/digital-agency/img/hero-img.png" class="img-fluid animated"
-                                                    alt="">
+                                                <!-- <img src="/digital-agency/img/hero-1.json" class="img-fluid animated"
+                                                    alt=""> -->
+                                                <dotlottie-player src="/digital-agency/img/hero-1.json"
+                                                    background="transparent" speed="1" class="img-fluid" direction="1"
+                                                    playMode="normal" loop autoplay></dotlottie-player>
                                             </div>
 
                                         </div>
@@ -184,17 +189,22 @@
                                         <div
                                             class="carousel-caption kb-caption kb-caption-center d-flex justify-content-between">
                                             <div class="carousel-image">
-                                                <img src="/digital-agency/img/hero-img.png" class="img-fluid animated"
-                                                    alt="">
+                                                <!-- <img src="/digital-agency/img/hero-img.png" class="img-fluid animated"
+                                                    alt=""> -->
+                                                <dotlottie-player src="/digital-agency/img/hero-1.json"
+                                                    background="transparent" speed="1" class="img-fluid" direction="1"
+                                                    playMode="normal" loop autoplay></dotlottie-player>
                                             </div>
 
                                             <div class="banner-right-area-content">
-                                                <h1 data-aos="fade-right" data-animation="animated"> <span
+                                                <h1 class="wow fadeInUp main_title" data-wow-delay="300ms"> <span
                                                         class="main-bold-text">CREATE YOUR
                                                         WEB <br /> WITH AI 2</span>
                                                 </h1>
-                                                <p data-animation="animated" class="hero-p">From Idea to Website</p>
-                                                <h4 data-animation="animated" class="hero-sub-title">Within a Blink!
+                                                <p class="hero-p">From Idea to
+                                                    Website</p>
+                                                <h4 class="hero-sub-title">Within a
+                                                    Blink!
                                                 </h4>
 
                                                 <a href="javascript:void(0);"
@@ -364,8 +374,9 @@
             <div class="row">
                 <div class="col-12 col-lg-12">
                     <div class="team-details">
-                        <h1 class="">From Idea to Website <br /> Within a Blink!</h1>
-                        <h6 class="">Save Time, Work Efficiently</h6>
+                        <h1 class="wow fadeInUp">From Idea to Website <br /> <span class="mt-2"> Within a Blink!</span>
+                        </h1>
+                        <h6 class="wow fadeInUp">Save Time, Work Efficiently</h6>
 
                     </div>
                 </div>
@@ -551,8 +562,8 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="image-gallary-title">
-                            <h1>Countless Categories</h1>
-                            <h6>Save Time, Work Efficiently</h6>
+                            <h1 class="wow fadeInUp">Countless Categories</h1>
+                            <h6 class="wow fadeInUp">Save Time, Work Efficiently</h6>
                         </div>
                     </div>
                 </div>
@@ -603,7 +614,8 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="testimonial-title">
-                            <h1> <span class="ai_gradient">Our</span> <br /> <span class="text-white">Partners</span>
+                            <h1> <span class="ai_gradient wow fadeInUp">Our</span> <br /> <span
+                                    class="text-white wow fadeInUp">Partners</span>
                             </h1>
                         </div>
                     </div>
@@ -664,11 +676,12 @@
             <path d="M 100 100 V 10 L 0 100" />
             <path d="M 30 73 L 100 18 V 10 Z" fill="#fff" stroke-width="0" />
         </svg>
-        <div class="container position-relative">
+        <div class="container position-relative price-plan-container">
             <div class="team-details d-flex justify-content-end">
                 <div class="text-right my-4">
-                    <h1 class="text-white">Price and Planing</h1>
-                    <h6 class="pricing-text">Share your throughts, and let's make <br /> your vision a reality
+                    <h1 class="text-white wow fadeInUp">Price and Planing</h1>
+                    <h6 class="pricing-text wow fadeInUp">Share your throughts, and let's make <br /> your vision a
+                        reality
                         together..</h6>
                 </div>
             </div>
@@ -778,7 +791,7 @@
                 <div class="row">
                     <div class="col-12">
                         <!-- <div class="testimonial-title"> -->
-                        <h1>About Us</h1>
+                        <h1 class="wow fadeInUp">About Us</h1>
                         <p class="about-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae egestas mi,
                             vel dapibus diam. Mauris malesuada, nisl non rutrum commodo, sem magna laoreet
@@ -968,7 +981,7 @@
                         <!-- Copyright - Bootstrap Brain Component -->
                         <div class="py-2">
                             <div class="container-fluid overflow-hidden">
-                                <div class="row gy-4 gy-md-0">
+                                <div class="row gy-4 gy-md-0 mb-4">
                                     <div class="col-xs-12 col-md-2 order-1 order-md-0"></div>
                                     <div class="col-xs-12 col-md-6 order-1 order-md-0 align-self-end">
                                         <div class="copyright text-center text-md-start">
@@ -985,11 +998,6 @@
 
                                     <div class="col-xs-12 col-md-4 order-0 order-md-1">
                                         <img src="/digital-agency/img/payment.png" class="img-fluid animated" alt="">
-                                        <!-- <ul class="nav justify-content-center justify-content-md-end"
-                                            style="--bs-nav-link-padding-x: .8rem;">
-                                            <img src="/digital-agency/img/payment.png" class="img-fluid animated"
-                                                alt="">
-                                        </ul> -->
                                     </div>
                                 </div>
                             </div>
@@ -1001,6 +1009,7 @@
         </div>
     </footer>
 </body>
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
 <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js'></script>
 <!-- JavaScript -->
 <script src="vendor/js/bundle.min.js"></script>
@@ -1018,6 +1027,11 @@
 <script src="vendor/js/contact_us.js"></script>
 <script src="digital-agency/js/script.js"></script>
 <script src="digital-agency/js/custom.js"></script>
+<!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
 
+
+<script>
+    AOS.init();
+</script>
 
 </html>

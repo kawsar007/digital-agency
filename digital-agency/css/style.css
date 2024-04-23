@@ -1278,6 +1278,9 @@ section {
   font-weight: 200;
   margin-bottom: 20px;
   text-transform: initial !important;
+
+  animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
 }
 
 .banner-right-area-content h1 .main-bold-text {
@@ -1298,6 +1301,9 @@ section {
   line-height: 24px;
   font-weight: 700;
   font-family: "Roboto";
+
+  animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 .banner-right-area-content .hero-sub-title {
@@ -1310,6 +1316,8 @@ section {
   color: transparent;
   margin-bottom: 1rem;
   text-align: left;
+  animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 .banner-right-area-content p {
@@ -2790,6 +2798,10 @@ section {
   }
 
   .banner-right-area-content .hero-sub-title {
+    font-size: 1.5rem;
+    line-height: 32px;
+    font-family: "Roboto";
+    font-weight: 600;
     margin-bottom: 0.5rem;
   }
 
