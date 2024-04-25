@@ -910,9 +910,12 @@ section.pricing {
 
 /* New Section  */
 .how-section1 {
-  margin-top: -15%;
-  padding: 10%;
+  margin-top: -8%;
+  padding: 4%;
+  max-width: 1300px;
+  margin: 0px auto;
 }
+
 .how-section1 h4 {
   font-family: "Roboto";
   color: #20d1;
@@ -931,7 +934,7 @@ section.pricing {
   font-weight: 400;
   font-size: 24px;
   line-height: 38px;
-  max-width: 438px;
+  /* max-width: 438px; */
 }
 
 .how-section1 .subheading {
@@ -947,4 +950,14 @@ section.pricing {
 }
 .how-img img {
   width: 40%;
+}
+
+@media (max-width: 991px) {
+  .how-section1 .lotti-img {
+    order: 2;
+  }
+
+  .how-section1 .lotti-content {
+    order: 1;
+  }
 }
