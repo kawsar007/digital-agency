@@ -1420,6 +1420,9 @@ section {
   color: #ffffff;
   font-size: 120px;
 }
+.about-sec .services-area .services .service-card .icon-holder img {
+  aspect-ratio: 1;
+}
 .about-sec .services-area .services:hover .service-card .icon-holder {
   animation: 0.8s pulse infinite;
   /*transform: translateY(-10px);*/
@@ -1435,11 +1438,11 @@ section {
 }
 
 .about-sec img {
-  position: absolute;
+  /* position: absolute; */
   z-index: 1111;
-  left: 300px;
+  /* left: 300px; */
   transform: rotate(-6deg);
-  bottom: -100px;
+  /* bottom: -100px; */
 }
 
 /* ===================================
@@ -3470,11 +3473,11 @@ section {
   }
 }
 
-@media screen and (min-width: 1900px) {
+/* @media screen and (min-width: 1900px) {
   .about-sec img {
     left: 410px;
   }
   .lastest-blog .pot-2 {
     left: 500px;
   }
-}
+} */
