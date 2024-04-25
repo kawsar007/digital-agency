@@ -1279,7 +1279,7 @@ section {
   margin-bottom: 20px;
   text-transform: initial !important;
 
-  animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+  animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 1s; /* don't forget to set a duration! */
 }
 
@@ -1327,6 +1327,16 @@ section {
 }
 
 #banner_svg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: rotateY(-180deg);
+  z-index: 1;
+  height: 130px;
+}
+
+#banner_svg1 {
   position: absolute;
   left: 0;
   right: 0;
@@ -1536,7 +1546,7 @@ section {
   left: 0;
   right: 0;
   transform: rotateX(180deg);
-  height: 200px;
+  height: 130px;
 }
 
 #team-foot-svg {
@@ -1545,7 +1555,7 @@ section {
   left: 0;
   right: 0;
   transform: rotateY(180deg);
-  height: 200px;
+  height: 130px;
 }
 
 .team-section .team-details .sub-title {
@@ -1653,7 +1663,7 @@ section {
 /*  PORTFOLIO CSS                   /
 /***********************************/
 .portfolio-sec {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   /*transition: .8s ease;*/
 }
 .portfolio-sec .container {
@@ -1833,7 +1843,7 @@ section {
   left: 0;
   right: 0;
   transform: rotateX(180deg);
-  height: 200px;
+  height: 130px;
 }
 
 #testimonial-foot-svg {
@@ -1842,7 +1852,7 @@ section {
   left: 0;
   right: 0;
   transform: rotateY(180deg);
-  height: 200px;
+  height: 130px;
 }
 
 .testimonial-sec .testimonial-title .heading {
@@ -2837,7 +2847,7 @@ section {
   /*side menu*/
   #site-mmenu-svg {
     bottom: 0;
-    height: 100px;
+    height: 80px;
   }
   .side-menu .side-nav {
     margin-bottom: 0;
@@ -2860,8 +2870,8 @@ section {
 
   /*ABOUT SEC*/
   #about-header-svg {
-    height: 100px;
-    top: -100px;
+    height: 80px;
+    top: -80px;
   }
 
   .about-sec {
@@ -2888,8 +2898,14 @@ section {
   }
   #banner_svg {
     bottom: -1px;
-    height: 100px;
+    height: 80px;
   }
+
+  #banner_svg1 {
+    bottom: -1px;
+    height: 80px;
+  }
+
   .about-sec img {
     left: 150px;
     bottom: -179px;
@@ -3033,7 +3049,7 @@ section {
   /*side menu*/
   #site-mmenu-svg {
     bottom: 0;
-    height: 100px;
+    height: 80px;
   }
   .side-menu .side-nav {
     margin-bottom: 0;
@@ -3055,8 +3071,8 @@ section {
 
   /*ABOUT SEC*/
   #about-header-svg {
-    height: 100px;
-    top: -99px;
+    height: 80px;
+    top: -80px;
   }
 
   .about-sec {
@@ -3082,7 +3098,11 @@ section {
   }
   #banner_svg {
     bottom: -1px;
-    height: 100px;
+    height: 80px;
+  }
+  #banner_svg1 {
+    bottom: -1px;
+    height: 80px;
   }
   .about-sec img {
     left: 100px;
@@ -3322,6 +3342,9 @@ section {
   }
   /*Banner SECTION*/
   #banner_svg {
+    height: 100px;
+  }
+  #banner_svg1 {
     height: 100px;
   }
 
