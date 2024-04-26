@@ -1416,6 +1416,19 @@ section {
   margin-bottom: 12px;
   transition: 0.5s ease;
 }
+
+.about-sec .services-area .services .service-card .icon-holder .caption {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  background-image: linear-gradient(60deg, #1cd3c3, #4db0e8);
+  background-clip: text;
+  color: transparent;
+  margin-top: 0.75rem;
+}
+
 .about-sec .services-area .services .service-card .icon-holder i {
   color: #ffffff;
   font-size: 120px;
@@ -1724,12 +1737,16 @@ section {
   margin-top: -190px;
 }
 .portfolio-sec .cbp-l-grid-mosaic .cbp-caption-activeWrap {
-  background: rgba(232, 215, 22, 0.8);
+  background: rgba(68, 15, 255, 0.5);
+  /* background: linear-gradient(to right, #440fff, #3c186a); */
+  /* background: linear-gradient(117.73deg, #2f2e43 9.95%, #211f30 97.17%); */
+  /* opacity: 0.5; */
 }
 
 .portfolio-sec .cbp-l-filters-button .cbp-filter-item:hover {
   color: #202020;
   border-color: #e8d716;
+  opacity: 1;
 }
 
 .portfolio-sec .cbp-l-caption-title {
