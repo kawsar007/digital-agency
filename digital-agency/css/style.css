@@ -1599,24 +1599,31 @@ section {
   cursor: pointer;
 }
 
-.team-section .image-holder:hover ~ .team-name {
-  color: #e8d716;
-}
-
 .team-section .image-holder img {
   height: 250px;
   width: 250px;
-  background-color: #e8d716;
+  /* background-color: #e8d716; */
+  background-color: #40454b;
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
   position: relative;
+
+  padding: 2rem;
 }
 
 .team-section .team-name {
+  font-size: "Roboto";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
   margin-top: 20px;
-  color: #ffffff;
   transition: 0.5s ease all;
+
+  background-image: linear-gradient(60deg, #1cd3c3, #4db0e8);
+  background-clip: text;
+  color: transparent;
 }
 
 .testimonial-team .owl-item .item {
@@ -1734,7 +1741,7 @@ section {
   transition: 300ms all ease;
 }
 .portfolio-sec .cbp-item.even {
-  margin-top: -190px;
+  /* margin-top: -190px; */
 }
 .portfolio-sec .cbp-l-grid-mosaic .cbp-caption-activeWrap {
   background: rgba(68, 15, 255, 0.5);

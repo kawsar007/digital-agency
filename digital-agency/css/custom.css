@@ -606,6 +606,17 @@ section.pricing {
   color: transparent;
 }
 
+.section-heading h6 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 32px;
+  text-align: right;
+  background-image: linear-gradient(60deg, #57a5eb, #16f2d7);
+  background-clip: text;
+  color: transparent;
+}
+
 /* Hover Effects on Card */
 
 @media (min-width: 992px) {
