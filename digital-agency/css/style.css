@@ -2622,6 +2622,12 @@ section {
   }
 }
 
+.cbp-caption-defaultWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* ===================================
     Media Queries
    ====================================== */
