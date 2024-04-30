@@ -406,6 +406,17 @@ jQuery(function ($) {
   });
 });
 
+setInterval(function () {
+  const scrollable = document.querySelector(".scrollable");
+  scrollable.scrollTop += 1;
+  if (
+    scrollable.scrollTop >=
+    scrollable.scrollHeight - scrollable.clientHeight
+  ) {
+    scrollable.scrollTop = 0;
+  }
+}, 10);
+
 window.addEventListener("load", () => {
   AOS.init({
     duration: 1000,
