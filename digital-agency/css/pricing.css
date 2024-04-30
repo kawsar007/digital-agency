@@ -54,7 +54,7 @@ nav .nav-bottom p {
 }
 
 .pricing-container {
-  max-width: 1320px;
+  max-width: 1620px;
 }
 
 .card-header h4 {
@@ -103,8 +103,19 @@ nav .nav-bottom p {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  text-align: center;
-  padding: 0.5rem;
+  text-align: left !important;
+  padding: 8px;
+}
+
+.card-body ul li svg {
+  overflow: hidden;
+  vertical-align: middle;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #1463e9;
+  color: #fff;
+  padding: 1px;
 }
 
 .p-3 {
