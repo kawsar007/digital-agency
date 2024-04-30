@@ -26,8 +26,8 @@ nav .nav-top h2 {
 nav .nav-top h5 {
   font-family: "Inter";
   font-weight: 300;
-  font-size: 2rem;
-  line-height: 38px;
+  font-size: 1.5rem;
+  line-height: 29px;
   color: #4cc1c9;
 }
 
@@ -54,7 +54,7 @@ nav .nav-bottom p {
 }
 
 .pricing-container {
-  max-width: 1620px;
+  max-width: 1420px;
 }
 
 .card-header h4 {
@@ -116,6 +116,16 @@ nav .nav-bottom p {
   background: #1463e9;
   color: #fff;
   padding: 1px;
+}
+
+.card-body h6 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #125cd7;
+  /* text-align: center; */
+  margin-left: 2.5rem;
 }
 
 .p-3 {
@@ -297,4 +307,25 @@ h3 {
 }
 .ul-styles {
   margin-bottom: 4.25rem !important;
+}
+
+@media (max-width: 991px) {
+  .card-header .leftside-title {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 42px;
+
+    background-image: linear-gradient(60deg, #2ed5fa, #cfdc3c);
+    background-clip: text;
+    color: transparent;
+  }
+
+  .card-header .leftside-sub-title {
+    font-family: "Inter";
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 32px;
+    color: #498dff;
+  }
 }
