@@ -43,6 +43,8 @@
   font-family: Inter;
   font-weight: 700;
   font-size: 4rem;
+  line-height: 50px;
+  margin-top: 1rem;
 }
 
 .team-details h1 {
@@ -103,6 +105,10 @@
 
 .our_partners {
   background: linear-gradient(to bottom, #59527f, #49619f, #1cb7c9);
+}
+
+.about_us {
+  background: linear-gradient(to bottom, #ffffff, #ffffff, #9cbced);
 }
 
 .video-container {
@@ -409,11 +415,64 @@
 }
 
 .about-us-sec .about-area h1 {
-  color: #fff;
+  color: #3f16cd;
   font-family: "Inter";
-  font-size: 4rem;
+  font-size: 58px;
+  line-height: 69px;
   font-weight: 700;
-  margin-bottom: 2.25rem;
+  /* margin-bottom: 2.25rem; */
+}
+
+.about-us-sec .about-area h4 {
+  font-family: "Roboto";
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 700;
+
+  background-image: linear-gradient(60deg, #1d6fe9, #37f8c9);
+  background-clip: text;
+  color: transparent;
+}
+
+.about-us-sec .about-area .about-us-top-image {
+  width: 100%;
+  height: auto;
+}
+
+.about-us-sec .about-area .about-us-content-area {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hidden {
+  display: none;
+}
+
+.about-us-sec .about-area .about-us-content-title {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 20px;
+}
+.about-us-sec .about-area .about-us-content-title h2 {
+  font-size: "Inter";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 48px;
+  color: #40454b;
+}
+
+.about-us-sec .about-area .about-us-content-text {
+  flex: 0 0 66.66%;
+  max-width: 66.66%;
+  padding: 20px;
+}
+
+.about-us-sec .about-area .about-us-content-text p {
+  font-size: "Roboto";
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 38px;
+  color: #40454b;
 }
 
 .about-us-sec .about-area p {
@@ -421,6 +480,14 @@
   font-size: 18px;
   font-weight: 100;
 }
+
+.dropdown-menu {
+  border: none !important;
+}
+
+/* .hidden {
+  display: none;
+} */
 
 @media screen and (max-width: 991px) {
   .about-us-sec {
@@ -437,6 +504,12 @@
   .about-us-sec .about-area p {
     font-size: 16px;
     text-align: start;
+  }
+
+  .about-us-sec .about-area .about-us-content-title,
+  .about-us-content-text {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 }
 
@@ -469,6 +542,7 @@
   /* left: 5%; */
 
   background: linear-gradient(to right, #28253f, #26617d, #15879f);
+  border-radius: 10px;
 }
 
 /* ----------============ Gallary Section ============----------- */
@@ -952,7 +1026,7 @@ section.pricing {
   font-size: 20px;
 }
 .how-section1 .row {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 .how-img {
   text-align: center;
@@ -963,6 +1037,13 @@ section.pricing {
 }
 .how-img img {
   width: 40%;
+}
+
+.how-section1 .lotti-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
 }
 
 @media (max-width: 991px) {
@@ -984,6 +1065,12 @@ section.pricing {
   gap: 2rem;
   padding: 10px;
 }
+
+/* @media (max-width: 991px) {
+  .scrollable {
+    max-height: calc(100vh);
+  }
+} */
 
 .image-container {
   position: relative;
@@ -1008,6 +1095,10 @@ section.pricing {
   display: flex;
   align-items: flex-end; /* Align items to the bottom */
   justify-content: flex-start; /* Justify content to the left */
+}
+
+.image-container {
+  background-color: #fff !important;
 }
 
 .image-container:hover .overlay {

@@ -221,3 +221,21 @@ ready(() => {
     doAnimations(animatingElems);
   });
 });
+
+const showMoreBtn = document.getElementById("show-more");
+const aboutUsContents = document.querySelectorAll(".about-us-content");
+showMoreBtn.addEventListener("click", function () {
+  aboutUsContents.forEach((section, index) => {
+    if (index < 2) return;
+    section.classList.toggle("hidden");
+  });
+
+  showMoreBtn.textContent =
+    showMoreBtn.textContent === "See Details" ? "Hide Details" : "See Details";
+
+  // if (showMoreBtn.textContent === "See Details") {
+  //   showMoreBtn.textContent = "Hide Details";
+  // } else {
+  //   showMoreBtn.textContent = "See Details";
+  // }
+});
