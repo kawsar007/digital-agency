@@ -293,7 +293,7 @@ jQuery(function ($) {
     nav: false,
     dots: false,
     autoplay: true,
-    autoplayTimeout: 8000,
+    autoplayTimeout: 2000,
     autoplayHoverPause: true,
     responsive: {
       0: {

@@ -51,7 +51,7 @@
   font-family: "Inter";
   font-weight: 700;
   font-size: 4rem;
-  line-height: 64px;
+  line-height: 50px;
   color: #40454b;
 }
 
@@ -80,7 +80,7 @@
   font-family: "Inter";
   font-size: 4rem;
   font-weight: 700;
-  line-height: 64px;
+  line-height: 50px;
   color: #ffffff;
 }
 
@@ -88,7 +88,7 @@
   font-family: "Roboto";
   font-size: 28px;
   font-weight: 700;
-  line-height: 64px;
+  line-height: 50px;
   background-image: linear-gradient(60deg, #16d8c1, #f8de37);
   background-clip: text;
   color: transparent;
@@ -108,7 +108,7 @@
 }
 
 .about_us {
-  background: linear-gradient(to bottom, #ffffff, #ffffff, #9cbced);
+  background: linear-gradient(to bottom, #eff4ff, #ffffff, #9cbced);
 }
 
 .video-container {
@@ -397,28 +397,32 @@
   font-size: 4rem;
   font-family: "Inter";
   font-weight: 700;
-  margin-bottom: 20px;
+  /* margin-bottom: 8rem; */
   text-transform: initial !important;
+  line-height: 50px;
 }
 
 .code_free .brilliance {
   background-image: linear-gradient(60deg, #539ddf, #40c7e3, #d2dd59);
   background-clip: text;
   color: transparent;
+  margin-bottom: 4rem;
 }
 
 /* =============== About Section Start ============== */
 .about-us-sec {
-  padding-top: 170px;
-  padding-bottom: 360px;
+  /* padding-top: 170px;
+  padding-bottom: 360px; */
   background-color: #e8d716;
+
+  padding: 150px 0px 180px;
 }
 
 .about-us-sec .about-area h1 {
   color: #3f16cd;
   font-family: "Inter";
   font-size: 58px;
-  line-height: 69px;
+  line-height: 50px;
   font-weight: 700;
   /* margin-bottom: 2.25rem; */
 }
@@ -439,6 +443,10 @@
   height: auto;
 }
 
+.about-us-sec .about-area .about-us-content {
+  margin-bottom: 2rem;
+}
+
 .about-us-sec .about-area .about-us-content-area {
   display: flex;
   flex-wrap: wrap;
@@ -446,6 +454,21 @@
 
 .hidden {
   display: none;
+}
+
+.show-more-btn {
+  padding: 7px 14px;
+  background-color: #3300e7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 1rem;
+}
+
+.show-more-btn:hover {
+  background-color: #1de9d1;
 }
 
 .about-us-sec .about-area .about-us-content-title {
@@ -510,6 +533,21 @@
   .about-us-content-text {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+
+  .about-us-sec .about-area .about-us-content-title {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 10px;
+    order: 1;
+    width: 100%;
+  }
+  .about-us-sec .about-area .about-us-content-text {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 10px;
+    order: 2;
+    width: 100%;
   }
 }
 
@@ -685,10 +723,11 @@ section.pricing {
   font-weight: 700;
   font-size: 2rem;
   line-height: 32px;
-  text-align: right;
+  text-align: center !important;
   background-image: linear-gradient(60deg, #57a5eb, #16f2d7);
   background-clip: text;
   color: transparent;
+  margin-top: 2rem;
 }
 /* Hover Effects on Card */
 
@@ -1065,12 +1104,6 @@ section.pricing {
   gap: 2rem;
   padding: 10px;
 }
-
-/* @media (max-width: 991px) {
-  .scrollable {
-    max-height: calc(100vh);
-  }
-} */
 
 .image-container {
   position: relative;

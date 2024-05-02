@@ -230,12 +230,12 @@ showMoreBtn.addEventListener("click", function () {
     section.classList.toggle("hidden");
   });
 
-  showMoreBtn.textContent =
-    showMoreBtn.textContent === "See Details" ? "Hide Details" : "See Details";
+  // showMoreBtn.textContent =
+  //   showMoreBtn.textContent === "See Details" ? "Hide Details" : "See Details";
 
-  // if (showMoreBtn.textContent === "See Details") {
-  //   showMoreBtn.textContent = "Hide Details";
-  // } else {
-  //   showMoreBtn.textContent = "See Details";
-  // }
+  if (showMoreBtn.textContent === "See Details") {
+    showMoreBtn.textContent = "Hide Details";
+  } else {
+    showMoreBtn.textContent = "See Details";
+  }
 });
