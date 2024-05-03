@@ -43,7 +43,7 @@
   font-family: Inter;
   font-weight: 700;
   font-size: 4rem;
-  line-height: 1.5rem;
+  line-height: 3rem;
   margin-top: 1rem;
 }
 
@@ -478,6 +478,10 @@
 .show-more-btn:hover {
   background-color: #1de9d1;
 }
+.show-more-btn:focus {
+  background-color: #3300e7;
+  color: #fff;
+}
 
 .about-us-sec .about-area .about-us-content-title {
   flex: 0 0 33.33%;
@@ -703,7 +707,7 @@ section.pricing {
 }
 
 .pricing ul li {
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 .pricing .text-muted {
@@ -712,12 +716,15 @@ section.pricing {
 
 .pricing .btn {
   font-size: 80%;
-  border-radius: 5rem;
+  border-radius: 0.5rem;
   letter-spacing: 0.1rem;
   font-weight: bold;
-  /* padding: 1rem; */
+  padding: 15px, 0px, 15px, 0px;
   opacity: 0.7;
   transition: all 0.2s;
+
+  background: linear-gradient(to right, #0d4198, #156cfe);
+  border: none;
 }
 
 .pricing .pricing-text {
@@ -814,6 +821,7 @@ section.pricing {
 
   .image-gallary-title h1 {
     font-size: 2rem;
+    margin-top: 5rem;
   }
 
   .image-gallary-title h6 {
@@ -1350,4 +1358,63 @@ h3 {
   font-size: 1.5rem;
   line-height: 41px;
   color: #498dff;
+}
+
+/* Image Hover Effect */
+.hover-effect {
+  /* border: 1px solid gray; */
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+.hover-effect:hover {
+  border: 1px solid gray;
+}
+
+.hover-effect .categories-caption {
+  color: #fff;
+  padding: 3px;
+  font-family: "Roboto";
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.hover-effect::before,
+.hover-effect::after {
+  content: "";
+  background: #fff;
+  height: 0;
+  width: 0;
+  z-index: 1;
+  position: absolute;
+  -webkit-transition-duration: 1s !important;
+  -o-transition-duration: 1s;
+  transition-duration: 1s !important;
+}
+.hover-effect::before {
+  right: 0;
+  opacity: 1;
+  bottom: 0;
+}
+.hover-effect::after {
+  top: 0;
+  opacity: 0.7;
+  left: 0;
+}
+.hover-effect:hover::after,
+.hover-effect:hover::before {
+  height: 100%;
+  opacity: 0;
+  width: 100%;
+}
+
+.footer-logo h2 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 38px;
+
+  background-image: linear-gradient(60deg, #50a3df, #16d8c1, #fbec87);
+  background-clip: text;
+  color: transparent;
 }
