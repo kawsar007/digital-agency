@@ -1708,7 +1708,7 @@ section {
 
 .testimonial-sec {
   padding-top: 150px;
-  padding-bottom: 180px;
+  /* padding-bottom: 180px; */
   background-color: #e8d716;
   /* margin-bottom: 5rem; */
 }
