@@ -43,8 +43,12 @@
   font-family: Inter;
   font-weight: 700;
   font-size: 4rem;
-  line-height: 50px;
+  line-height: 1.5rem;
   margin-top: 1rem;
+}
+
+.team-details {
+  margin-bottom: 3rem;
 }
 
 .team-details h1 {
@@ -76,6 +80,10 @@
 }
 
 /* IMAGE GALLARY SECTION */
+.image-gallary-title {
+  margin-bottom: 3rem;
+}
+
 .image-gallary-title h1 {
   font-family: "Inter";
   font-size: 4rem;
@@ -113,7 +121,7 @@
 
 .video-container {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  padding-bottom: 56.25%;
   overflow: hidden;
   max-width: 100%;
 }
@@ -663,7 +671,7 @@ section.pricing {
 }
 
 .pricing .price-plan-container {
-  padding-top: 55px;
+  /* padding-top: 55px; */
   padding-bottom: 80px;
 }
 
@@ -707,7 +715,7 @@ section.pricing {
   border-radius: 5rem;
   letter-spacing: 0.1rem;
   font-weight: bold;
-  padding: 1rem;
+  /* padding: 1rem; */
   opacity: 0.7;
   transition: all 0.2s;
 }
@@ -771,6 +779,9 @@ section.pricing {
 }
 
 @media screen and (max-width: 991px) {
+  .team-details {
+    margin-top: -4rem;
+  }
   .team-details h1 {
     font-size: 2rem;
     line-height: 32px;
@@ -940,6 +951,16 @@ section.pricing {
     margin-top: -4rem;
     width: 100%;
     order: 1;
+  }
+
+  .section-heading h6 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 30px;
+    margin-top: 1.5rem;
+    text-align: left !important;
+    margin-left: 1.75rem;
   }
 }
 
@@ -1158,4 +1179,175 @@ section.pricing {
   scrollbar-width: none; /* Hide scrollbar for Firefox */
   -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer/Edge */
   overflow: auto; /* Enable scrolling */
+}
+
+/* Pricing Plan CSS Landing Page */
+.card-header h4 {
+  color: #51617c;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.card-header h6 {
+  color: #51617c;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.card-header .span {
+  color: #156cfe;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.card-header p {
+  color: #51617c;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15.6px;
+}
+
+.card-header a {
+  text-decoration: none;
+  color: #1dc8e9;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.card-header:first-child {
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.card-body ul li {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: left !important;
+  padding: 8px;
+}
+
+.card-body ul li svg {
+  overflow: hidden;
+  vertical-align: middle;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #1463e9;
+  color: #fff;
+  padding: 1px;
+}
+
+.card-body h6 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #125cd7;
+  /* text-align: center; */
+  margin-left: 2.5rem;
+}
+
+.card-footer,
+.card-header {
+  display: flex;
+  align-items: center;
+}
+.left-card-header {
+  background-color: #201e2b !important;
+  margin-top: -3rem;
+}
+.card-header {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+  background-color: #fff;
+  border-bottom: 0 solid rgba(0, 0, 0, 0.125);
+}
+.card-footer:last-child {
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+.h3,
+h3 {
+  font-size: 1.75rem;
+}
+.p-3 {
+  padding: 1rem !important;
+}
+.justify-content-center {
+  justify-content: center !important;
+}
+.card-footer,
+.card-header {
+  display: flex;
+  align-items: center;
+}
+.card-footer {
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  border-top: 0 solid rgba(0, 0, 0, 0.125);
+}
+.card {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+/* Upgrade Button */
+
+.upgrade-butoon {
+  cursor: pointer;
+  outline: 0;
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.upgrade-butoon:hover {
+  color: #fff;
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+/*  */
+.card-header .leftside-title {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 2.75rem;
+  line-height: 53px;
+
+  background-image: linear-gradient(60deg, #2ed5fa, #cfdc3c);
+  background-clip: text;
+  color: transparent;
+}
+
+.card-header .leftside-sub-title {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 41px;
+  color: #498dff;
 }

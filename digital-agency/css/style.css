@@ -1360,7 +1360,7 @@ section {
   overflow: visible;
   margin-top: 120px;
   padding-top: 120px;
-  padding-bottom: 200px;
+  /* padding-bottom: 200px; */
 }
 
 #about-header-svg {
@@ -2611,10 +2611,9 @@ section {
   }
 
   .testimonial-sec {
-    padding-top: 20px;
+    padding-top: 20x;
     padding-bottom: 60px;
     background-color: #e8d716;
-    /* margin-bottom: 5rem; */
   }
 
   .testimonial-carousel {
@@ -2851,7 +2850,7 @@ section {
 
   /*Testimonial section css*/
   .testimonial-sec {
-    padding-top: 200px;
+    padding-top: 120px;
     padding-bottom: 150px;
   }
   #testimonial-header-svg {
