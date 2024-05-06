@@ -4,21 +4,16 @@ body {
   line-height: 1.5;
   color: #1a202c;
   text-align: left;
-  /* background-color: #e2e8f0; */
-  /* background-color: #201e2b; */
 }
 
 .main-body {
   background-color: #201e2b;
-  /* max-width: 1200px;
-  margin: 0 auto; */
 }
 
 /* Navbar Start */
 .main-breadcrumb {
   max-width: 400px;
   margin-bottom: 5rem;
-  margin-top: 2rem;
 }
 
 .main-breadcrumb .nav-top h2 {
