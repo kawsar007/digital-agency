@@ -3232,9 +3232,17 @@ section {
   /*Banner SECTION*/
   #banner_svg {
     height: 100px;
+    border-bottom: 1px solid #ffffff;
   }
   #banner_svg1 {
     height: 100px;
+    border-bottom: 1px solid #ffffff;
+  }
+
+  #testimonial-foot-svg {
+    bottom: -1px;
+    height: 150px;
+    border-bottom: -1px solid #ffffff;
   }
 
   .banner-text-right {
@@ -3260,6 +3268,7 @@ section {
   #about-header-svg {
     height: 100px;
     top: -100px;
+    border-bottom: 1px solid #201e2b;
   }
 
   .about-sec .services-area .services .service-card .icon-holder i {
@@ -3288,6 +3297,7 @@ section {
   }
   #team-header-svg {
     height: 100px;
+    border-bottom: 1px solid #fff;
   }
 
   #team-foot-svg {
@@ -3311,6 +3321,7 @@ section {
   /*testimional*/
   #testimonial-header-svg {
     height: 100px;
+    border-bottom: 1px solid #ffffff;
   }
 
   testimonial-foot-svg {

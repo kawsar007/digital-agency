@@ -5,25 +5,33 @@ body {
   color: #1a202c;
   text-align: left;
   /* background-color: #e2e8f0; */
+  /* background-color: #201e2b; */
+}
+
+.main-body {
   background-color: #201e2b;
+  /* max-width: 1200px;
+  margin: 0 auto; */
 }
 
 /* Navbar Start */
-nav {
+.main-breadcrumb {
   max-width: 400px;
   margin-bottom: 5rem;
   margin-top: 2rem;
 }
 
-nav .nav-top h2 {
+.main-breadcrumb .nav-top h2 {
   font-family: "Archivo";
   font-weight: 700;
   font-size: 3rem;
   line-height: 48px;
   color: #fff;
+
+  padding-top: 5rem;
 }
 
-nav .nav-top h5 {
+.main-breadcrumb .nav-top h5 {
   font-family: "Inter";
   font-weight: 300;
   font-size: 1.5rem;
@@ -31,7 +39,7 @@ nav .nav-top h5 {
   color: #4cc1c9;
 }
 
-nav .nav-bottom h6 {
+.main-breadcrumb .nav-bottom h6 {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
@@ -39,7 +47,7 @@ nav .nav-bottom h6 {
   color: #4cc1c9;
 }
 
-nav .nav-bottom p {
+.main-breadcrumb .nav-bottom p {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 18px;
@@ -54,7 +62,8 @@ nav .nav-bottom p {
 }
 
 .pricing-container {
-  max-width: 1420px;
+  max-width: 1320px;
+  background-color: #201e2b !important;
 }
 
 .card-header h4 {
