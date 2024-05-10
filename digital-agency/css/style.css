@@ -1301,9 +1301,9 @@ section {
 }
 
 .banner-right-area-content .hero-p {
-  color: #71d7f7;
+  color: #e1e1e3;
   font-size: 1.5rem;
-  line-height: 24px;
+  line-height: 16px;
   font-weight: 700;
   font-family: "Roboto";
 
@@ -1313,13 +1313,13 @@ section {
 
 .banner-right-area-content .hero-sub-title {
   font-size: 2.5rem;
-  line-height: 40px;
+  line-height: 39px;
   font-family: "Roboto";
   font-weight: 700;
-  background-image: linear-gradient(to left, #12f7d6, #6496ef, #8122f9);
-  background-clip: text;
-  color: transparent;
-  margin-bottom: 1rem;
+  /* background-image: linear-gradient(to left, #12f7d6, #6496ef, #8122f9);
+  background-clip: text; */
+  color: #e1e1e3;
+  margin-bottom: 1.5rem;
   text-align: left;
   animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
