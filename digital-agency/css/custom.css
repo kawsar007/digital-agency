@@ -533,7 +533,14 @@
 
   .about-us-sec .about-area h1 {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    line-height: 32px;
+    /* margin-bottom: 1rem; */
+  }
+
+  .about-us-sec .about-area h4 {
+    font-size: 1.5rem;
+    line-height: 24px;
+    /* margin-bottom: 1rem; */
   }
 
   .about-us-sec .about-area p {
@@ -792,10 +799,12 @@ section.pricing {
   .team-details h1 {
     font-size: 2rem;
     line-height: 32px;
+    margin-top: 2rem;
   }
   .team-details h6 {
     font-size: 1.25rem;
     line-height: 20px;
+    margin-bottom: -2rem;
   }
 
   .testimonial-title h1 {
@@ -817,15 +826,30 @@ section.pricing {
     font-family: "Inter";
     font-weight: 700;
     font-size: 2rem;
+    line-height: 1.5rem;
+    text-align: start;
+  }
+
+  .service-details p {
+    text-align: start;
+  }
+
+  .service-details .ai_gradient {
+    background-image: linear-gradient(60deg, #0b92f5, #19cae7);
+    background-clip: text;
+    color: transparent;
+    line-height: 1.5rem;
   }
 
   .image-gallary-title h1 {
     font-size: 2rem;
     margin-top: 5rem;
+    line-height: 24px;
   }
 
   .image-gallary-title h6 {
     font-size: 1.25rem;
+    line-height: 20px;
   }
 
   .image-gallary-area {
@@ -955,7 +979,6 @@ section.pricing {
   }
 
   .carousel-image {
-    /* display: none; */
     margin-top: -4rem;
     width: 100%;
     order: 1;
@@ -969,6 +992,52 @@ section.pricing {
     margin-top: 1.5rem;
     text-align: left !important;
     margin-left: 1.75rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .carousel-image {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    order: 1;
+  }
+
+  .carousel-item {
+    height: 200px !important;
+  }
+
+  .image-gallary-title h1 {
+    margin-top: 9rem;
+  }
+
+  .team-details {
+    margin-top: 1rem;
+  }
+
+  .banner-right-area-content h1 {
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+
+  .banner-right-area-content .hero-p {
+    font-size: 2rem;
+  }
+
+  .banner-right-area-content .hero-sub-title {
+    font-size: 2rem;
+    line-height: 32px;
+    font-family: "Roboto";
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .testimonial-title {
+    margin-top: 4rem;
+  }
+
+  .about-area {
+    margin-top: 4rem;
   }
 }
 
