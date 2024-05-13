@@ -957,6 +957,24 @@ section.pricing {
   background: rgba(0 0 0 / 0.5);
 }
 
+@media (max-width: 767px) {
+  .banner-right-area-content h1 {
+    font-size: 2rem !important;
+  }
+
+  .banner-right-area-content .hero-p {
+    font-size: 1rem !important;
+  }
+
+  .banner-right-area-content .hero-sub-title {
+    font-size: 1.5rem !important;
+    line-height: 32px;
+    font-family: "Roboto";
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .kb-caption {
     right: 7%;
